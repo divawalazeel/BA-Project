@@ -20,7 +20,7 @@ pip install pandas psycopg2 dotenv seaborn matplotlib nltk sklearn sqlalchemy
 ```
 
 ### 🗄️ Database Setup
-This project uses **AWS RDS PostgreSQL** for data storage. Ensure you have PostgreSQL ODBC Driver installed.
+This project uses **AWS RDS PostgreSQL** for data storage. Ensure you have RDS PostgreSQL credentials.
 
 #### 🔑 SQL Authorization
 Create a `.env` file named `rds-keys.env` and insert your database credentials:
